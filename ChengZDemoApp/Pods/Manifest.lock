@@ -1,0 +1,333 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Appirater (2.3.1)
+  - AsyncDisplayKit (2.2.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.2.1)
+  - AsyncDisplayKit/Core (2.2.1)
+  - AsyncDisplayKit/PINRemoteImage (2.2.1):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.8)
+    - PINRemoteImage/PINCache
+  - AwesomeMenu (1.0.0)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - DTCoreText (1.6.21):
+    - DTCoreText/Core (= 1.6.21)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.21):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.13)
+  - DTFoundation/DTAnimatedGIF (1.7.13)
+  - DTFoundation/DTHTMLParser (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.13):
+    - DTFoundation/Core
+  - FastImageCache (1.5.1)
+  - FlatUIKit (1.6.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - FormatterKit (1.8.2):
+    - FormatterKit/AddressFormatter (= 1.8.2)
+    - FormatterKit/ArrayFormatter (= 1.8.2)
+    - FormatterKit/ColorFormatter (= 1.8.2)
+    - FormatterKit/LocationFormatter (= 1.8.2)
+    - FormatterKit/NameFormatter (= 1.8.2)
+    - FormatterKit/OrdinalNumberFormatter (= 1.8.2)
+    - FormatterKit/Resources (= 1.8.2)
+    - FormatterKit/TimeIntervalFormatter (= 1.8.2)
+    - FormatterKit/UnitOfInformationFormatter (= 1.8.2)
+    - FormatterKit/URLRequestFormatter (= 1.8.2)
+  - FormatterKit/AddressFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/ArrayFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/ColorFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/LocationFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/NameFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/OrdinalNumberFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/Resources (1.8.2)
+  - FormatterKit/TimeIntervalFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/UnitOfInformationFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FormatterKit/URLRequestFormatter (1.8.2):
+    - FormatterKit/Resources
+  - FXBlurView (1.6.4)
+  - GPUImage (0.1.7)
+  - HexColors (2.2.1)
+  - JDStatusBarNotification (1.6.0)
+  - JSONModel (1.8.0)
+  - JVFloatLabeledTextField (1.2.1)
+  - KVOController (1.2.0)
+  - leveldb (1.18)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - MSWeakTimer (1.1.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - NSLogger (1.9.0):
+    - NSLogger/ObjC (= 1.9.0)
+  - NSLogger/ObjC (1.9.0)
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.8)
+  - PINRemoteImage/iOS (3.0.0-beta.8):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.8):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
+  - PKRevealController (2.0.6)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - PonyDebugger (0.4.5):
+    - SocketRocket
+  - PromiseKit (6.5.2):
+    - PromiseKit/CorePromise (= 6.5.2)
+    - PromiseKit/Foundation (= 6.5.2)
+    - PromiseKit/UIKit (= 6.5.2)
+  - PromiseKit/CorePromise (6.5.2)
+  - PromiseKit/Foundation (6.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.2):
+    - PromiseKit/CorePromise
+  - Reachability (3.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SlackTextViewController (1.9.6)
+  - SocketRocket (0.5.1)
+  - SVProgressHUD (2.2.5)
+  - TapkuLibrary (0.3.8)
+  - TMCache (2.1.0)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+  - TTTAttributedLabel (2.0.0)
+  - UICountingLabel (1.2.0)
+  - WebViewJavascriptBridge (6.0.3)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
+  - ZXingObjC (3.6.0):
+    - ZXingObjC/All (= 3.6.0)
+  - ZXingObjC/All (3.6.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Appirater
+  - AsyncDisplayKit
+  - AwesomeMenu
+  - BlocksKit
+  - CocoaHTTPServer
+  - CocoaLumberjack
+  - DTCoreText
+  - FastImageCache
+  - FlatUIKit
+  - FMDB
+  - FormatterKit
+  - FXBlurView
+  - GPUImage
+  - JDStatusBarNotification
+  - JSONModel
+  - JVFloatLabeledTextField
+  - KVOController
+  - leveldb
+  - MagicalRecord
+  - Mantle
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - MSWeakTimer
+  - NJKWebViewProgress
+  - NSLogger
+  - PKRevealController
+  - PNChart
+  - PonyDebugger
+  - PromiseKit
+  - Reachability
+  - SDWebImage
+  - SlackTextViewController
+  - SocketRocket
+  - SVProgressHUD
+  - TapkuLibrary
+  - TMCache
+  - TSMessages
+  - TTTAttributedLabel
+  - WebViewJavascriptBridge
+  - YTKKeyValueStore
+  - ZXingObjC
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Appirater
+    - AsyncDisplayKit
+    - AwesomeMenu
+    - BlocksKit
+    - CocoaAsyncSocket
+    - CocoaHTTPServer
+    - CocoaLumberjack
+    - DTCoreText
+    - DTFoundation
+    - FastImageCache
+    - FlatUIKit
+    - FMDB
+    - FormatterKit
+    - FXBlurView
+    - GPUImage
+    - HexColors
+    - JDStatusBarNotification
+    - JSONModel
+    - JVFloatLabeledTextField
+    - KVOController
+    - leveldb
+    - MagicalRecord
+    - Mantle
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MSWeakTimer
+    - NJKWebViewProgress
+    - NSLogger
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - PKRevealController
+    - PNChart
+    - PonyDebugger
+    - PromiseKit
+    - Reachability
+    - SDWebImage
+    - SlackTextViewController
+    - SocketRocket
+    - SVProgressHUD
+    - TapkuLibrary
+    - TMCache
+    - TSMessages
+    - TTTAttributedLabel
+    - UICountingLabel
+    - WebViewJavascriptBridge
+    - YTKKeyValueStore
+    - ZXingObjC
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Appirater: 44a4651f7912a17dc906b655f0c215d5bb768b84
+  AsyncDisplayKit: 2234dd8d8770a5ed72936b3f8394bd5a807765f6
+  AwesomeMenu: 34bad7f873e4b3cfaa6651fabbb96607d0e8f2b3
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  DTCoreText: e5d688cffc9f6a61eddd1a4f94e2046851230de3
+  DTFoundation: f03be9fd786f11e505bb8fc44e2a3732bf0917df
+  FastImageCache: 2e7a6f677b15336eb3d1a4092a494676256c891d
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FormatterKit: 4b8f29acc9b872d5d12a63efb560661e8f2e1b98
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  JDStatusBarNotification: 21b616e7432284fea6eb0ce9eadc37c8038a5544
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  leveldb: 06059c65d8480c7775ebca4fd556f49f1a655ce2
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  NSLogger: 9f8f5ab017eb34d1a138f4905dc7fb8e9a0e3186
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
+  PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  PonyDebugger: 1c60f7c876bdb6a8b6bf0f0269087f8a234fafa7
+  PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SlackTextViewController: b854e62c1c156336bc4fd409c6ca79b5773e8f9d
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TapkuLibrary: 7a406dac46eff8595e191557eba88959f97f69b7
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
+  ZXingObjC: 1d5991f4a75418dee15705c865a8e8b2443bc2af
+
+PODFILE CHECKSUM: c61239ae7cc637ea4f22c8c2f1df90a8204cc566
+
+COCOAPODS: 1.5.3

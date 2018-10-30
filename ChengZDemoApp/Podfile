@@ -1,0 +1,121 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ChengZDemoApp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for ChengZDemoApp
+
+## UI
+pod 'FlatUIKit'
+pod 'AsyncDisplayKit'
+pod 'GPUImage'
+pod 'FastImageCache'
+
+## 富文本
+pod 'DTCoreText'
+pod 'TTTAttributedLabel'
+
+## 模糊效果
+pod 'FXBlurView'
+
+## 控制器 切换
+pod 'PKRevealController'
+
+## 视图约束
+pod 'Masonry'
+
+## 动画 效果
+pod 'TapkuLibrary'
+
+
+## 图表
+pod 'PNChart'
+
+## 列表
+pod 'MJRefresh'
+
+## 弹框
+pod 'TSMessages'
+pod 'JDStatusBarNotification'
+
+## 菜单
+pod 'AwesomeMenu'
+
+## 进度
+pod 'MBProgressHUD'
+pod 'SVProgressHUD'
+## 键盘
+
+## 输入框
+pod 'JVFloatLabeledTextField'
+## textview 高度自适应
+pod 'SlackTextViewController'
+
+## WebView
+pod 'WebViewJavascriptBridge'
+pod 'NJKWebViewProgress'
+pod 'SocketRocket'
+
+## 网络
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'Reachability'
+pod 'PonyDebugger'
+pod 'CocoaHTTPServer'
+
+
+## 数据解析
+
+## 数据库
+pod 'MagicalRecord'
+pod 'Mantle'
+pod 'FMDB'
+
+## 文件缓存
+pod 'TMCache'
+pod 'leveldb'
+pod 'YTKKeyValueStore'
+
+## 二维码
+pod 'ZXingObjC'
+
+
+## Model
+pod 'MJExtension'
+pod 'JSONModel'
+
+## 工具
+pod 'KVOController'
+pod 'BlocksKit'
+
+## 了解一下
+pod 'FormatterKit'
+pod 'PromiseKit'
+
+## Timer 
+pod 'MSWeakTimer'
+
+## APP 打分
+pod 'Appirater'
+
+## log
+pod 'CocoaLumberjack'
+pod 'NSLogger'
+
+
+
+
+
+  target 'ChengZDemoAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ChengZDemoAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

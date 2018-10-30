@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2672E545218837AB0046313C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672E544218837AB0046313C /* AppDelegate.m */; };
+		2672E548218837AB0046313C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672E547218837AB0046313C /* ViewController.m */; };
+		2672E54B218837AB0046313C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2672E549218837AB0046313C /* Main.storyboard */; };
+		2672E54D218837AD0046313C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2672E54C218837AD0046313C /* Assets.xcassets */; };
+		2672E550218837AD0046313C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2672E54E218837AD0046313C /* LaunchScreen.storyboard */; };
+		2672E553218837AD0046313C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672E552218837AD0046313C /* main.m */; };
+		2672E55D218837AD0046313C /* ChengZDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672E55C218837AD0046313C /* ChengZDemoAppTests.m */; };
+		2672E568218837AD0046313C /* ChengZDemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672E567218837AD0046313C /* ChengZDemoAppUITests.m */; };
+		EA12E7ACA15563364D06AD57 /* libPods-ChengZDemoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8403B1F933FF7CF90D071724 /* libPods-ChengZDemoAppTests.a */; };
+		EF72D179AB4876C63C495AAA /* libPods-ChengZDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F06D80F403E2BED2C4EA312 /* libPods-ChengZDemoApp.a */; };
+		FCB59FBD025DFD00F1AC7186 /* libPods-ChengZDemoAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E611E0B90EBFB7E516EB2068 /* libPods-ChengZDemoAppUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2672E559218837AD0046313C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2672E538218837AB0046313C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2672E53F218837AB0046313C;
+			remoteInfo = ChengZDemoApp;
+		};
+		2672E564218837AD0046313C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2672E538218837AB0046313C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2672E53F218837AB0046313C;
+			remoteInfo = ChengZDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2672E540218837AB0046313C /* ChengZDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChengZDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2672E543218837AB0046313C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2672E544218837AB0046313C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2672E546218837AB0046313C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2672E547218837AB0046313C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2672E54A218837AB0046313C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2672E54C218837AD0046313C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2672E54F218837AD0046313C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2672E551218837AD0046313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2672E552218837AD0046313C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2672E558218837AD0046313C /* ChengZDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChengZDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2672E55C218837AD0046313C /* ChengZDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChengZDemoAppTests.m; sourceTree = "<group>"; };
+		2672E55E218837AD0046313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2672E563218837AD0046313C /* ChengZDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChengZDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2672E567218837AD0046313C /* ChengZDemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChengZDemoAppUITests.m; sourceTree = "<group>"; };
+		2672E569218837AD0046313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364834D6668E13F369971A92 /* Pods-ChengZDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoAppTests/Pods-ChengZDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F06D80F403E2BED2C4EA312 /* libPods-ChengZDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChengZDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		712201936C79E10973940BDC /* Pods-ChengZDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoAppUITests/Pods-ChengZDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8403B1F933FF7CF90D071724 /* libPods-ChengZDemoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChengZDemoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8834CD87A12F4CAA6AA7F508 /* Pods-ChengZDemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoAppUITests/Pods-ChengZDemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4D549CD68161567B3A13DBD /* Pods-ChengZDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoApp/Pods-ChengZDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AE4B5D140A5AED2E0A5C5E57 /* Pods-ChengZDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoAppTests/Pods-ChengZDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E567F0EABA1A98C50765EA97 /* Pods-ChengZDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoApp/Pods-ChengZDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		E611E0B90EBFB7E516EB2068 /* libPods-ChengZDemoAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChengZDemoAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2672E53D218837AB0046313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF72D179AB4876C63C495AAA /* libPods-ChengZDemoApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2672E555218837AD0046313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA12E7ACA15563364D06AD57 /* libPods-ChengZDemoAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2672E560218837AD0046313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB59FBD025DFD00F1AC7186 /* libPods-ChengZDemoAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007AD22749C6CBDC6EC751FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F06D80F403E2BED2C4EA312 /* libPods-ChengZDemoApp.a */,
+				8403B1F933FF7CF90D071724 /* libPods-ChengZDemoAppTests.a */,
+				E611E0B90EBFB7E516EB2068 /* libPods-ChengZDemoAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2672E537218837AB0046313C = {
+			isa = PBXGroup;
+			children = (
+				2672E542218837AB0046313C /* ChengZDemoApp */,
+				2672E55B218837AD0046313C /* ChengZDemoAppTests */,
+				2672E566218837AD0046313C /* ChengZDemoAppUITests */,
+				2672E541218837AB0046313C /* Products */,
+				C26E8B0FDC52C354DF72C591 /* Pods */,
+				007AD22749C6CBDC6EC751FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2672E541218837AB0046313C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2672E540218837AB0046313C /* ChengZDemoApp.app */,
+				2672E558218837AD0046313C /* ChengZDemoAppTests.xctest */,
+				2672E563218837AD0046313C /* ChengZDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2672E542218837AB0046313C /* ChengZDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				2672E543218837AB0046313C /* AppDelegate.h */,
+				2672E544218837AB0046313C /* AppDelegate.m */,
+				2672E546218837AB0046313C /* ViewController.h */,
+				2672E547218837AB0046313C /* ViewController.m */,
+				2672E549218837AB0046313C /* Main.storyboard */,
+				2672E54C218837AD0046313C /* Assets.xcassets */,
+				2672E54E218837AD0046313C /* LaunchScreen.storyboard */,
+				2672E551218837AD0046313C /* Info.plist */,
+				2672E552218837AD0046313C /* main.m */,
+			);
+			path = ChengZDemoApp;
+			sourceTree = "<group>";
+		};
+		2672E55B218837AD0046313C /* ChengZDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2672E55C218837AD0046313C /* ChengZDemoAppTests.m */,
+				2672E55E218837AD0046313C /* Info.plist */,
+			);
+			path = ChengZDemoAppTests;
+			sourceTree = "<group>";
+		};
+		2672E566218837AD0046313C /* ChengZDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2672E567218837AD0046313C /* ChengZDemoAppUITests.m */,
+				2672E569218837AD0046313C /* Info.plist */,
+			);
+			path = ChengZDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		C26E8B0FDC52C354DF72C591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4D549CD68161567B3A13DBD /* Pods-ChengZDemoApp.debug.xcconfig */,
+				E567F0EABA1A98C50765EA97 /* Pods-ChengZDemoApp.release.xcconfig */,
+				364834D6668E13F369971A92 /* Pods-ChengZDemoAppTests.debug.xcconfig */,
+				AE4B5D140A5AED2E0A5C5E57 /* Pods-ChengZDemoAppTests.release.xcconfig */,
+				712201936C79E10973940BDC /* Pods-ChengZDemoAppUITests.debug.xcconfig */,
+				8834CD87A12F4CAA6AA7F508 /* Pods-ChengZDemoAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2672E53F218837AB0046313C /* ChengZDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2672E56C218837AD0046313C /* Build configuration list for PBXNativeTarget "ChengZDemoApp" */;
+			buildPhases = (
+				C51E4EC5876B2EC227B93C26 /* [CP] Check Pods Manifest.lock */,
+				2672E53C218837AB0046313C /* Sources */,
+				2672E53D218837AB0046313C /* Frameworks */,
+				2672E53E218837AB0046313C /* Resources */,
+				F96B956A0BD58FF91A47F5F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChengZDemoApp;
+			productName = ChengZDemoApp;
+			productReference = 2672E540218837AB0046313C /* ChengZDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2672E557218837AD0046313C /* ChengZDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2672E56F218837AD0046313C /* Build configuration list for PBXNativeTarget "ChengZDemoAppTests" */;
+			buildPhases = (
+				2D708710A37ADA95953D7175 /* [CP] Check Pods Manifest.lock */,
+				2672E554218837AD0046313C /* Sources */,
+				2672E555218837AD0046313C /* Frameworks */,
+				2672E556218837AD0046313C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2672E55A218837AD0046313C /* PBXTargetDependency */,
+			);
+			name = ChengZDemoAppTests;
+			productName = ChengZDemoAppTests;
+			productReference = 2672E558218837AD0046313C /* ChengZDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2672E562218837AD0046313C /* ChengZDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2672E572218837AD0046313C /* Build configuration list for PBXNativeTarget "ChengZDemoAppUITests" */;
+			buildPhases = (
+				E2C43776BF6C4218C460475D /* [CP] Check Pods Manifest.lock */,
+				2672E55F218837AD0046313C /* Sources */,
+				2672E560218837AD0046313C /* Frameworks */,
+				2672E561218837AD0046313C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2672E565218837AD0046313C /* PBXTargetDependency */,
+			);
+			name = ChengZDemoAppUITests;
+			productName = ChengZDemoAppUITests;
+			productReference = 2672E563218837AD0046313C /* ChengZDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2672E538218837AB0046313C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chengz;
+				TargetAttributes = {
+					2672E53F218837AB0046313C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2672E557218837AD0046313C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2672E53F218837AB0046313C;
+					};
+					2672E562218837AD0046313C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2672E53F218837AB0046313C;
+					};
+				};
+			};
+			buildConfigurationList = 2672E53B218837AB0046313C /* Build configuration list for PBXProject "ChengZDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2672E537218837AB0046313C;
+			productRefGroup = 2672E541218837AB0046313C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2672E53F218837AB0046313C /* ChengZDemoApp */,
+				2672E557218837AD0046313C /* ChengZDemoAppTests */,
+				2672E562218837AD0046313C /* ChengZDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2672E53E218837AB0046313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2672E550218837AD0046313C /* LaunchScreen.storyboard in Resources */,
+				2672E54D218837AD0046313C /* Assets.xcassets in Resources */,
+				2672E54B218837AB0046313C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2672E556218837AD0046313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2672E561218837AD0046313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D708710A37ADA95953D7175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChengZDemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51E4EC5876B2EC227B93C26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChengZDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C43776BF6C4218C460475D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChengZDemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96B956A0BD58FF91A47F5F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChengZDemoApp/Pods-ChengZDemoApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Appirater/Appirater.bundle",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-addbutton-highlighted.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-addbutton-highlighted@2x.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-addbutton.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-addbutton@2x.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-menuitem-highlighted.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-menuitem-highlighted@2x.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-menuitem.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/bg-menuitem@2x.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/icon-plus-highlighted.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/icon-plus-highlighted@2x.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/icon-plus.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/icon-plus@2x.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/icon-star.png",
+				"${PODS_ROOT}/AwesomeMenu/AwesomeMenu/Images/icon-star@2x.png",
+				"${PODS_ROOT}/FlatUIKit/Resources/flat-ui-icons-regular.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Bold.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Italic.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Light.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Regular.ttf",
+				"${PODS_ROOT}/FormatterKit/FormatterKit/FormatterKit.bundle",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundError.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundError@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundErrorIcon.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundErrorIcon@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundMessage.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundMessage@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccess.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccess@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccessIcon.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundSuccessIcon@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarning.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarning@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarningIcon.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationBackgroundWarningIcon@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationButtonBackground.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/NotificationButtonBackground@2x.png",
+				"${PODS_ROOT}/TSMessages/Pod/Assets/TSMessagesDefaultDesign.json",
+				"${PODS_ROOT}/TapkuLibrary/src/TapkuLibrary.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Appirater.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-addbutton-highlighted.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-addbutton-highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-addbutton.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-addbutton@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-menuitem-highlighted.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-menuitem-highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-menuitem.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg-menuitem@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon-plus-highlighted.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon-plus-highlighted@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon-plus.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon-plus@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon-star.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon-star@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flat-ui-icons-regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Bold.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Italic.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Light.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FormatterKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundMessage.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundMessage@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccess.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccess@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarning.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarning@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TSMessagesDefaultDesign.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TapkuLibrary.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChengZDemoApp/Pods-ChengZDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2672E53C218837AB0046313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2672E548218837AB0046313C /* ViewController.m in Sources */,
+				2672E553218837AD0046313C /* main.m in Sources */,
+				2672E545218837AB0046313C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2672E554218837AD0046313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2672E55D218837AD0046313C /* ChengZDemoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2672E55F218837AD0046313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2672E568218837AD0046313C /* ChengZDemoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2672E55A218837AD0046313C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2672E53F218837AB0046313C /* ChengZDemoApp */;
+			targetProxy = 2672E559218837AD0046313C /* PBXContainerItemProxy */;
+		};
+		2672E565218837AD0046313C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2672E53F218837AB0046313C /* ChengZDemoApp */;
+			targetProxy = 2672E564218837AD0046313C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2672E549218837AB0046313C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2672E54A218837AB0046313C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2672E54E218837AD0046313C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2672E54F218837AD0046313C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2672E56A218837AD0046313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2672E56B218837AD0046313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2672E56D218837AD0046313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D549CD68161567B3A13DBD /* Pods-ChengZDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJBJZ49544;
+				INFOPLIST_FILE = ChengZDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ChengZDemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2672E56E218837AD0046313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E567F0EABA1A98C50765EA97 /* Pods-ChengZDemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJBJZ49544;
+				INFOPLIST_FILE = ChengZDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ChengZDemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2672E570218837AD0046313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364834D6668E13F369971A92 /* Pods-ChengZDemoAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChengZDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ChengZDemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChengZDemoApp.app/ChengZDemoApp";
+			};
+			name = Debug;
+		};
+		2672E571218837AD0046313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4B5D140A5AED2E0A5C5E57 /* Pods-ChengZDemoAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChengZDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ChengZDemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChengZDemoApp.app/ChengZDemoApp";
+			};
+			name = Release;
+		};
+		2672E573218837AD0046313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712201936C79E10973940BDC /* Pods-ChengZDemoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChengZDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ChengZDemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChengZDemoApp;
+			};
+			name = Debug;
+		};
+		2672E574218837AD0046313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8834CD87A12F4CAA6AA7F508 /* Pods-ChengZDemoAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChengZDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ChengZDemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChengZDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2672E53B218837AB0046313C /* Build configuration list for PBXProject "ChengZDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2672E56A218837AD0046313C /* Debug */,
+				2672E56B218837AD0046313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2672E56C218837AD0046313C /* Build configuration list for PBXNativeTarget "ChengZDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2672E56D218837AD0046313C /* Debug */,
+				2672E56E218837AD0046313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2672E56F218837AD0046313C /* Build configuration list for PBXNativeTarget "ChengZDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2672E570218837AD0046313C /* Debug */,
+				2672E571218837AD0046313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2672E572218837AD0046313C /* Build configuration list for PBXNativeTarget "ChengZDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2672E573218837AD0046313C /* Debug */,
+				2672E574218837AD0046313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2672E538218837AB0046313C /* Project object */;
+}

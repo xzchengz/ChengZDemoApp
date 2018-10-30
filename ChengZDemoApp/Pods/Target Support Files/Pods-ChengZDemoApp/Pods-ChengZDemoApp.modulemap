@@ -1,0 +1,6 @@
+module Pods_ChengZDemoApp {
+  umbrella header "Pods-ChengZDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
