@@ -48,6 +48,7 @@ PODS:
   - CocoaLumberjack/Default (3.4.2)
   - CocoaLumberjack/Extensions (3.4.2):
     - CocoaLumberjack/Default
+  - CYLTabBarController (1.17.20)
   - DTCoreText (1.6.21):
     - DTCoreText/Core (= 1.6.21)
     - DTFoundation/Core (~> 1.7.5)
@@ -70,36 +71,6 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - FormatterKit (1.8.2):
-    - FormatterKit/AddressFormatter (= 1.8.2)
-    - FormatterKit/ArrayFormatter (= 1.8.2)
-    - FormatterKit/ColorFormatter (= 1.8.2)
-    - FormatterKit/LocationFormatter (= 1.8.2)
-    - FormatterKit/NameFormatter (= 1.8.2)
-    - FormatterKit/OrdinalNumberFormatter (= 1.8.2)
-    - FormatterKit/Resources (= 1.8.2)
-    - FormatterKit/TimeIntervalFormatter (= 1.8.2)
-    - FormatterKit/UnitOfInformationFormatter (= 1.8.2)
-    - FormatterKit/URLRequestFormatter (= 1.8.2)
-  - FormatterKit/AddressFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/ArrayFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/ColorFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/LocationFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/NameFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/OrdinalNumberFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/Resources (1.8.2)
-  - FormatterKit/TimeIntervalFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/UnitOfInformationFormatter (1.8.2):
-    - FormatterKit/Resources
-  - FormatterKit/URLRequestFormatter (1.8.2):
-    - FormatterKit/Resources
   - FXBlurView (1.6.4)
   - GPUImage (0.1.7)
   - HexColors (2.2.1)
@@ -146,15 +117,6 @@ PODS:
     - UICountingLabel (~> 1.2.0)
   - PonyDebugger (0.4.5):
     - SocketRocket
-  - PromiseKit (6.5.2):
-    - PromiseKit/CorePromise (= 6.5.2)
-    - PromiseKit/Foundation (= 6.5.2)
-    - PromiseKit/UIKit (= 6.5.2)
-  - PromiseKit/CorePromise (6.5.2)
-  - PromiseKit/Foundation (6.5.2):
-    - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.5.2):
-    - PromiseKit/CorePromise
   - Reachability (3.2)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
@@ -183,11 +145,11 @@ DEPENDENCIES:
   - BlocksKit
   - CocoaHTTPServer
   - CocoaLumberjack
+  - CYLTabBarController
   - DTCoreText
   - FastImageCache
   - FlatUIKit
   - FMDB
-  - FormatterKit
   - FXBlurView
   - GPUImage
   - JDStatusBarNotification
@@ -207,7 +169,6 @@ DEPENDENCIES:
   - PKRevealController
   - PNChart
   - PonyDebugger
-  - PromiseKit
   - Reachability
   - SDWebImage
   - SlackTextViewController
@@ -231,12 +192,12 @@ SPEC REPOS:
     - CocoaAsyncSocket
     - CocoaHTTPServer
     - CocoaLumberjack
+    - CYLTabBarController
     - DTCoreText
     - DTFoundation
     - FastImageCache
     - FlatUIKit
     - FMDB
-    - FormatterKit
     - FXBlurView
     - GPUImage
     - HexColors
@@ -260,7 +221,6 @@ SPEC REPOS:
     - PKRevealController
     - PNChart
     - PonyDebugger
-    - PromiseKit
     - Reachability
     - SDWebImage
     - SlackTextViewController
@@ -284,12 +244,12 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  CYLTabBarController: 376fc15463c582cd5a24a7e9d46a578243bd5b12
   DTCoreText: e5d688cffc9f6a61eddd1a4f94e2046851230de3
   DTFoundation: f03be9fd786f11e505bb8fc44e2a3732bf0917df
   FastImageCache: 2e7a6f677b15336eb3d1a4092a494676256c891d
   FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  FormatterKit: 4b8f29acc9b872d5d12a63efb560661e8f2e1b98
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
@@ -313,7 +273,6 @@ SPEC CHECKSUMS:
   PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
   PonyDebugger: 1c60f7c876bdb6a8b6bf0f0269087f8a234fafa7
-  PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SlackTextViewController: b854e62c1c156336bc4fd409c6ca79b5773e8f9d
@@ -328,6 +287,6 @@ SPEC CHECKSUMS:
   YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
   ZXingObjC: 1d5991f4a75418dee15705c865a8e8b2443bc2af
 
-PODFILE CHECKSUM: c61239ae7cc637ea4f22c8c2f1df90a8204cc566
+PODFILE CHECKSUM: c44fddc44ae8aaee82295297daaafbdb80038de8
 
 COCOAPODS: 1.5.3

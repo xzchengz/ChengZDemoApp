@@ -23,6 +23,9 @@ pod 'FXBlurView'
 ## 控制器 切换
 pod 'PKRevealController'
 
+## vc
+pod 'CYLTabBarController'
+
 ## 视图约束
 pod 'Masonry'
 
@@ -91,8 +94,8 @@ pod 'KVOController'
 pod 'BlocksKit'
 
 ## 了解一下
-pod 'FormatterKit'
-pod 'PromiseKit'
+#pod 'FormatterKit'
+#pod 'PromiseKit'
 
 ## Timer 
 pod 'MSWeakTimer'

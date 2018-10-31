@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA5E6CCAE6C4BA10A8DC3040D68DDCDA"
+               BlueprintIdentifier = "9CC52DA9C90AFB68E426FEAB84FD7381"
                BlueprintName = "PonyDebugger"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPonyDebugger.a">
