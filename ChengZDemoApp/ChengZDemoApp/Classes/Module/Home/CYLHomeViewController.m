@@ -9,15 +9,33 @@
 #import "CYLHomeViewController.h"
 //#import "CYLTabBarControllerConfig.h"
 //#import "CYLPlusButtonSubclass.h"
+
+#import "CZViewViewController.h"
+
+@interface CYLHomeViewController ()
+@property (nonatomic, strong) NSMutableArray *listArray;
+@end
 @implementation CYLHomeViewController 
 
 #pragma mark - View lifecycle
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _listArray = [NSMutableArray array];
+        
+        NSArray *data1 = @[@"视图", @"CZViewViewController"];
+        [_listArray addObject:data1];
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"首页(3)"; //✅sets navigation bar title.The right way to set the title of the navigation
-    self.tabBarItem.title = @"首页23333";   //❌sets tab bar title. Even the `tabBarItem.title` changed, this will be ignored in tabbar.
+    self.tabBarItem.title = @"首页";   //❌sets tab bar title. Even the `tabBarItem.title` changed, this will be ignored in tabbar.
     //self.title = @"首页1";                //❌sets both of these. Do not do this‼️‼️This may cause something strange like this : http://i68.tinypic.com/282l3x4.jpg .
 //    [self.navigationController.tabBarItem setBadgeValue:@"3"];
 }
@@ -32,7 +50,17 @@
 #pragma mark - Methods
 
 - (void)configureCell:(UITableViewCell *)cell forIndexPath:(NSIndexPath *)indexPath {
-    [[cell textLabel] setText:[NSString stringWithFormat:@"%@ Controller Cell %@", self.tabBarItem.title, @(indexPath.row)]];
+    
+    NSString *titleStr = [NSString stringWithFormat:@"%@ Controller Cell %@", self.tabBarItem.title, @(indexPath.row)];
+    
+    if (indexPath.row < self.listArray.count) {
+        NSArray *array = self.listArray[indexPath.row];
+        if (array) {
+            titleStr = array[0];
+        }
+    }
+    
+    [[cell textLabel] setText:titleStr];
 }
 
 #pragma mark - Table view
@@ -119,10 +147,20 @@
 //    CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
 //    tabBarController.delegate = self;
 //
-    
-    UIViewController *vc = [UIViewController new];
-    vc.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController  pushViewController:vc animated:YES];
+    if (indexPath.row < self.listArray.count) {
+        NSArray *array = self.listArray[indexPath.row];
+        if (array) {
+            NSString *titleStr = array[0];
+            NSString *classStr = array[1];
+            self.navigationItem.title = titleStr; //sets navigation bar title.
+            Class class = NSClassFromString(classStr);
+            UIViewController *vc = [[class alloc] init];
+            [self.navigationController  pushViewController:vc animated:YES];
+        }
+    } else {
+        CZBaseViewController *vc = [[CZBaseViewController alloc] init];
+        [self.navigationController  pushViewController:vc animated:YES];
+    }
 }
 
 

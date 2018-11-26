@@ -169,12 +169,12 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
     // set the bar background image
     // 设置背景图片
     UITabBar *tabBarAppearance = [UITabBar appearance];
-    
+    [tabBarAppearance setBackgroundColor:[UIColor whiteColor]];
     //FIXED: #196
-    NSString *tabBarBackgroundImageName = @"tabbarBg";
-    UIImage *tabBarBackgroundImage = [UIImage imageNamed:tabBarBackgroundImageName];
-    UIImage *scanedTabBarBackgroundImage = [[self class] scaleImage:tabBarBackgroundImage];
-    [tabBarAppearance setBackgroundImage:scanedTabBarBackgroundImage];
+//    NSString *tabBarBackgroundImageName = @"tabbarBg";
+//    UIImage *tabBarBackgroundImage = [UIImage imageNamed:tabBarBackgroundImageName];
+//    UIImage *scanedTabBarBackgroundImage = [[self class] scaleImage:tabBarBackgroundImage];
+//    [tabBarAppearance setBackgroundImage:scanedTabBarBackgroundImage];
     
     // remove the bar system shadow image
     // 去除 TabBar 自带的顶部阴影

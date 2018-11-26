@@ -22,6 +22,9 @@
 		26DDA2862189922200E209B5 /* CYLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA27B2189922200E209B5 /* CYLMineViewController.m */; };
 		26DDA2872189922200E209B5 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA27F2189922200E209B5 /* CYLPlusButtonSubclass.m */; };
 		26DDA2882189922200E209B5 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA2802189922200E209B5 /* MainTabBarController.m */; };
+		26DDA28A2189932100E209B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DDA2892189932100E209B5 /* Images.xcassets */; };
+		26DDA2902189B00E00E209B5 /* CZViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA28F2189B00E00E209B5 /* CZViewViewController.m */; };
+		26DDA2942189B13300E209B5 /* CZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DDA2932189B13300E209B5 /* CZBaseViewController.m */; };
 		EA12E7ACA15563364D06AD57 /* libPods-ChengZDemoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8403B1F933FF7CF90D071724 /* libPods-ChengZDemoAppTests.a */; };
 		EF72D179AB4876C63C495AAA /* libPods-ChengZDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F06D80F403E2BED2C4EA312 /* libPods-ChengZDemoApp.a */; };
 		FCB59FBD025DFD00F1AC7186 /* libPods-ChengZDemoAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E611E0B90EBFB7E516EB2068 /* libPods-ChengZDemoAppUITests.a */; };
@@ -75,6 +78,11 @@
 		26DDA27E2189922200E209B5 /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
 		26DDA27F2189922200E209B5 /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
 		26DDA2802189922200E209B5 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		26DDA2892189932100E209B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26DDA28E2189B00E00E209B5 /* CZViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZViewViewController.h; sourceTree = "<group>"; };
+		26DDA28F2189B00E00E209B5 /* CZViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZViewViewController.m; sourceTree = "<group>"; };
+		26DDA2922189B13300E209B5 /* CZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZBaseViewController.h; sourceTree = "<group>"; };
+		26DDA2932189B13300E209B5 /* CZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZBaseViewController.m; sourceTree = "<group>"; };
 		364834D6668E13F369971A92 /* Pods-ChengZDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoAppTests/Pods-ChengZDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F06D80F403E2BED2C4EA312 /* libPods-ChengZDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChengZDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		712201936C79E10973940BDC /* Pods-ChengZDemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengZDemoAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChengZDemoAppUITests/Pods-ChengZDemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +167,7 @@
 				2672E54E218837AD0046313C /* LaunchScreen.storyboard */,
 				2672E551218837AD0046313C /* Info.plist */,
 				2672E552218837AD0046313C /* main.m */,
+				26DDA2892189932100E209B5 /* Images.xcassets */,
 			);
 			path = ChengZDemoApp;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 		26DDA26B2189922200E209B5 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				26DDA2912189B11900E209B5 /* Base */,
 				26DDA26C2189922200E209B5 /* Home */,
 				26DDA26F2189922200E209B5 /* SameCity */,
 				26DDA2742189922200E209B5 /* Other */,
@@ -207,6 +217,8 @@
 			children = (
 				26DDA26D2189922200E209B5 /* CYLHomeViewController.h */,
 				26DDA26E2189922200E209B5 /* CYLHomeViewController.m */,
+				26DDA28E2189B00E00E209B5 /* CZViewViewController.h */,
+				26DDA28F2189B00E00E209B5 /* CZViewViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -256,6 +268,15 @@
 				26DDA27F2189922200E209B5 /* CYLPlusButtonSubclass.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		26DDA2912189B11900E209B5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				26DDA2922189B13300E209B5 /* CZBaseViewController.h */,
+				26DDA2932189B13300E209B5 /* CZBaseViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		C26E8B0FDC52C354DF72C591 /* Pods */ = {
@@ -379,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2672E550218837AD0046313C /* LaunchScreen.storyboard in Resources */,
+				26DDA28A2189932100E209B5 /* Images.xcassets in Resources */,
 				2672E54D218837AD0046313C /* Assets.xcassets in Resources */,
 				2672E54B218837AB0046313C /* Main.storyboard in Resources */,
 			);
@@ -571,6 +593,8 @@
 				26DDA2872189922200E209B5 /* CYLPlusButtonSubclass.m in Sources */,
 				26DDA2822189922200E209B5 /* CYLSameCityViewController.m in Sources */,
 				2672E553218837AD0046313C /* main.m in Sources */,
+				26DDA2902189B00E00E209B5 /* CZViewViewController.m in Sources */,
+				26DDA2942189B13300E209B5 /* CZBaseViewController.m in Sources */,
 				26DDA2862189922200E209B5 /* CYLMineViewController.m in Sources */,
 				26DDA2812189922200E209B5 /* CYLHomeViewController.m in Sources */,
 				2672E545218837AB0046313C /* AppDelegate.m in Sources */,
@@ -747,6 +771,7 @@
 			baseConfigurationReference = A4D549CD68161567B3A13DBD /* Pods-ChengZDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJBJZ49544;
 				INFOPLIST_FILE = ChengZDemoApp/Info.plist;
@@ -766,6 +791,7 @@
 			baseConfigurationReference = E567F0EABA1A98C50765EA97 /* Pods-ChengZDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJBJZ49544;
 				INFOPLIST_FILE = ChengZDemoApp/Info.plist;
